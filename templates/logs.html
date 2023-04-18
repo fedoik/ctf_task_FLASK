@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+{{ super() }}
+<div class="page-profile">
+    <ul>
+    {% for item in log %}
+        <li>{{item}}</li>
+    {% endfor %}
+    </ul>
+
+</div>
+{% endblock %}
