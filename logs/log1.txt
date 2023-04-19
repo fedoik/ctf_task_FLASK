@@ -1,8 +1,5 @@
-2023-03-28 01:30:48,081  - INFO - user - admin@kibhack.com; password - 123
 2023-03-28 01:34:23,963  - WARNING - Bad input by: dasf@kibhack.com
-2023-03-28 01:35:37,332  - INFO - user: admin@kibhack.com; password: 123
 2023-03-28 01:46:26,348  - INFO - user: kkk@l.com; password: kkk
-2023-03-28 10:51:36,207  - INFO - user: fedoik10@kibhack.com; password: 123
 2023-03-28 10:53:06,274  - INFO - user: kol9@kibhack.com; password: math
 2023-03-28 10:54:06,244  - WARNING - bad input by: kol@wwe.com
 2023-03-28 10:54:20,301  - WARNING - bad input by: kol@wwe.com
@@ -11,15 +8,12 @@
 2023-03-28 11:16:30,142  - WARNING - bad input by: sucno@kibhack.com
 2023-03-28 11:20:03,416  - INFO - user: hello@kibhack.com; password: 123
 2023-03-28 11:47:50,838  - INFO - user: test@kibhack.com; password: 123
-2023-03-28 11:48:00,245  - INFO - user: admin@kibhack.com; password: 123
 2023-03-28 12:02:07,491  - INFO - user: kol9@kibhack.com; password: math
 2023-04-07 22:40:27,217  - WARNING - bad input by: he
 2023-04-07 22:41:18,571  - INFO - user: gosha@tests.test; password: 1
 2023-04-07 22:44:26,791  - INFO - user: gosha@tests.test; password: 1
 2023-04-07 22:51:53,544  - INFO - user: gosha@tests.test; password: 1
 2023-04-07 22:53:57,955  - INFO - user: gosha@tests.test; password: 1
-2023-04-07 22:57:54,413  - INFO - user: admin@kibhack.com; password: 123
-2023-04-07 23:10:11,533  - INFO - user: admin@kibhack.com; password: 123
 2023-04-10 19:40:54,619  - WARNING - bad input by: test@mail.com'"#--
 2023-04-10 19:40:58,292  - WARNING - bad input by: test@mail.com'"#--
 2023-04-10 19:48:16,365  - WARNING - bad input by:  test@mail.com'"#--
@@ -32,3 +26,5 @@
 2023-04-10 20:26:53,789  - WARNING - bad input by: 'd'
 2023-04-10 20:27:02,756  - WARNING - bad input by: "---0-920340248304
 2023-04-10 20:27:03,361  - WARNING - bad input by: 
+2023-04-19 20:01:43,352  - WARNING - bad input by: admin@kibhack.com
+2023-04-19 20:02:23,397  - INFO - user: admin@kibhack.com; password: HK3jksjnjx24
