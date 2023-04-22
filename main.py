@@ -134,15 +134,18 @@ def registration():
             flash('Bad characters', category='error')
             logger.warning('bad input by: '+request.form['email'])
         else:
-            if request.form['password'] == request.form['Confirm password']:
-                if request.form['email'].find('@') == -1:
-                    flash('Email does not exist @', category='error')
+            if not dbase.getUserByEmail(request.form['email']):
+                if request.form['password'] == request.form['Confirm password']:
+                    if request.form['email'].find('@') == -1:
+                        flash('Email does not exist @', category='error')
+                    else:
+                        password_hash = generate_password_hash(request.form['password']) #!!!!!!!!!!!!!!!!!!!!!!!!
+                        if dbase.addPost(request.form['email'], password_hash):
+                            return redirect(url_for('login'))
                 else:
-                    password_hash = generate_password_hash(request.form['password']) #!!!!!!!!!!!!!!!!!!!!!!!!
-                    if dbase.addPost(request.form['email'], password_hash):
-                        return redirect(url_for('login'))
+                    flash('Passwords are not equal', category='error')
             else:
-                flash('Passwords are not equal', category='error')
+                flash('User exists',category='error')
     return render_template('register.html', title='Registration')
 
 
